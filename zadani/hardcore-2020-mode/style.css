@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    box-shadow:grey 2px 4px 5px;
+    
+}
+
+.menu a{
+    color: #48418e;
+
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0rem 1rem;
+    text-align: center;
+}
+
+.appka a:hover {
+    background-color:#48418e;
+    color: white;
+}
+
+.menu a:hover {
+    background-color:#48418e;
+    color: white;
+}
+
+.menu {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.super {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.prvniradek,
+.druhyradek {
+    display: flex;
+}
+
+.appka {
+    background: linear-gradient(to right, #25133d 25%, #aa5477 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    padding: 1rem;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+}
+
+.stahni {
+    background-color: #48418e;
+    margin: 0;
+    
+}
+
+.stahni a:hover{
+    border: 0.5px solid #e5e5e5;
+    background: linear-gradient(to right, #25133d 25%, #aa5477 );
+
+}
+
+li {
+    border: 1px solid white;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.paticka {
+    background-color:#48418e;
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    color: #48418e;
+    font-weight: 800;
+    margin-bottom: 5rem;
+}
+
+.cestuj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 10px
+}
+
+.letadlo {
+    position: absolute;
+    top: 70px;
+}
+
+p {
+    text-align: center;
+}
+
+.chatuj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 10px
+}
+
+.bubliny {
+    position: absolute;
+    top: 70px;
+}
+
+.zazij {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 10px
+}
+
+.mapa {
+    position: absolute;
+    top: 70px;
+
+}
+
+.img {
+    display: none;
+}
+
+@media screen and (min-width: 510px) and (max-width: 900px) {
+        
+    .prvniradek {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .druhyradek {
+        display: flex;
+        justify-content: space-around;
+        order: 2;
+    }
+
+    .appka {
+        align-items: flex-start;
+        padding-left: 1rem;
+    }
+    
+    h3 {
+        padding-left: 0rem;
+    }
+
+    .spodnicast {
+        display: flex;
+    }
+
+    }
+
+
+    @media screen and (min-width: 900px) {
+
+        .prvniradek {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .druhyradek {
+            display: flex;
+            justify-content: space-around;
+            order: 2;
+        }
+    
+        .appka {
+            align-items: flex-start;
+            padding-left: 1rem;
+            
+        }
+        
+        h3 {
+            padding-left: 0rem;
+        }
+    
+        .spodnicast {
+            display: flex;
+        }
+
+        
+    }
