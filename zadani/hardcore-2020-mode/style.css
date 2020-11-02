@@ -24,6 +24,7 @@ a {
     color: white;
     padding: 0rem 1rem;
     text-align: center;
+    display: block;
 }
 
 .appka a:hover {
@@ -98,6 +99,7 @@ li {
     border-radius: 7px;
     text-align: center;
     margin-top: 0.5rem;
+    display: block;
 }
 
 .paticka {
@@ -161,6 +163,10 @@ p {
     display: none;
 }
 
+.appka-foto {
+    display: none;
+}
+
 @media screen and (min-width: 510px) and (max-width: 900px) {
         
     .prvniradek {
@@ -217,5 +223,12 @@ p {
             display: flex;
         }
 
+        .menu {
+            justify-content: start;
+        }
+
+        .appka-foto {
+            display: block;
+        }
         
     }
